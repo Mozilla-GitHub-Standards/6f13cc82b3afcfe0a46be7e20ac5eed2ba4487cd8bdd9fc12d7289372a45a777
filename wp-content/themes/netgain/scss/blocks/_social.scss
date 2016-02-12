@@ -1,0 +1,35 @@
+.footer__social--wrapper {
+  text-align: center;
+}
+
+.share {
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-indent: -9999px;
+  margin: 0 20px;
+
+  &:hover {
+    position: relative;
+    top: -3px;
+  }
+  
+}
+
+.facebook {
+  background-image: url("../img/social/facebook.png");
+}
+
+.linkedin {
+  background-image: url("../img/social/linkedin.png");
+}
+
+.twitter {
+  background-image: url("../img/social/twitter.png");
+}
+
+.google {
+  background-image: url("../img/social/googleplus.png");
+}

@@ -1,0 +1,16 @@
+@media all and (min-width: 700px) and (max-height: 700px) {
+   
+  .header__content_wrapper {
+    top: 10%;
+
+    p:first-of-type {
+      font-size: 4.5rem;
+    }
+
+  }
+
+  .header__inner_wrapper .partner_logos {
+    display: none;
+  }
+
+}

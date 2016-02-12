@@ -1,0 +1,13 @@
+.drop__cap, .page__main_content > p:first-of-type:first-letter {
+  font-size: 70px;
+  vertical-align: top;
+  padding-right: 15px;
+  float: left;
+  line-height: 1;
+}
+
+
+strong {
+  font-weight: bold;
+  font-family: 'OpenSansBold', sans-serif;
+}

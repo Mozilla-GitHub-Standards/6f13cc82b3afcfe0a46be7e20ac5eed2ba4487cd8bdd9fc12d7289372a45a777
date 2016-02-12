@@ -1,0 +1,25 @@
+#header__full_viewport {
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-image: url('../img/gradient_bg.jpg') !important; //important to override actual image bg.
+}
+
+.header__inner_wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+  position: relative;
+  padding: 0 5%;
+
+  .partner_logos {
+    display: none;
+
+    @media all and (min-width: 700px) {
+      display: block;
+      padding-top: 25px;
+    }
+
+  }
+
+}

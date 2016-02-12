@@ -1,0 +1,37 @@
+.page__main_content {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 0 5%;
+
+  @include breakpoint($tabletWidth) {
+    margin: 150px auto;
+    padding: 0;
+  }
+
+  h1 {
+    @include primaryFont;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    font-size: 5rem;
+    font-weight: bold;
+  }
+
+  p {
+    line-height: 2;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+
+    @include breakpoint($desktopWidth) {
+      max-width: 55%;
+    }
+
+  }
+
+}
+
+.header_border {
+  border-top: 2px solid $darkGrey;
+  padding-bottom: 7.5rem;
+}

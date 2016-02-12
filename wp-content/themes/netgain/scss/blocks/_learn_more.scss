@@ -1,0 +1,71 @@
+.learn__more--background {
+  background-image: url('../img/gradient_bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.learn__more--inner {
+  @include maxWidth;
+  text-align: center;
+  padding: 50px 5%;
+}
+
+.learn_more__block {
+
+  &--title {
+    @include primaryFont;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    font-size: 3rem;
+    color: $white;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 2px solid $white;
+
+    @include breakpoint($tabletWidth) {
+      font-size: 5.5rem;
+    }
+
+  }
+
+  &--subtitle {
+    color: $white;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'OpenSansRegular', sans-serif;
+    margin-bottom: 25px;
+    font-size: 2.4rem;
+  }
+
+  &--download {
+    font-weight: bold;
+    color: $white;
+    font-size: 1.8rem;
+  }
+
+  &--body {
+    max-width: 80%;
+    margin: 10px auto 25px;
+    color: $white;
+    font-size: 2rem;
+    line-height: 1.5;
+
+    @include breakpoint($tabletWidth) {
+      max-width: 70%;
+    }
+
+  }
+
+  .grey.button {
+    @include transition(all .2s ease);
+    background: $white;
+    color: $darkGrey;
+
+    &:hover {
+      background: $darkGrey;
+      color: $white;
+    }
+    
+  }
+
+}

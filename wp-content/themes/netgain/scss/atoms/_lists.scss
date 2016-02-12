@@ -1,0 +1,32 @@
+.page__main_content {
+
+  ul {
+    max-width: 75%;
+    margin: 0 auto;
+
+    @include breakpoint($tabletWidth) {
+      max-width: 45%;
+    }
+    
+  }
+
+  li {
+    margin: 30px 0;
+    position: relative;
+    line-height: 2;
+    padding-left: 40px;
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 15px;
+      left: 1px;
+      width: 15px;
+      height: 3px;
+      margin-top: -2px;
+      background: $black;
+    }
+
+  }
+
+}

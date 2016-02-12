@@ -1,0 +1,39 @@
+// Standard mobile nav styling.
+#mobile__nav, #mobile__nav.open {
+
+  .primary-menu {
+    padding: 40px 0 0 30px;
+
+    a {
+      color: $white;
+      text-decoration: none;
+      text-transform: uppercase;
+      margin: 15px 20px;
+      display: inline-block;
+    }
+
+    a:hover, .current_page_item a {
+      color: $darkGrey;
+    }
+
+  }
+
+}
+
+// Colour-bg mobile nav styling.
+
+#mobile__nav.colour-bg.open {
+
+  .primary-menu {
+
+    a {
+      color: $white;
+    }
+
+    a:hover, .current_page_item a {
+      color: $darkGrey;
+    }
+
+  }
+
+}

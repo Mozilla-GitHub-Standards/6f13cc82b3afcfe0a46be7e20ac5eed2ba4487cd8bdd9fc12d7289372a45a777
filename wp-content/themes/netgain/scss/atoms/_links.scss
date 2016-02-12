@@ -1,0 +1,43 @@
+a {
+  font-family: 'BebasNeueBold', sans-serif;
+  font-size: 2rem;
+  letter-spacing: 2.5px;
+}
+
+.in_hero__nav {
+	
+  .current_page_item {
+    opacity: 1;
+  }
+
+}
+
+.below_hero__nav {
+
+  .current_page_item {
+    color: $cta;
+  }
+	
+}
+
+.mobile__site_title {
+
+  a {
+    color: $cta;
+    text-decoration: none;
+    display: inline-block;
+    margin: 15px;
+    text-transform: uppercase;
+  }
+
+}
+
+.download_report {
+  max-width: 100%;
+  margin: 5rem auto;
+  text-align: center;
+
+  @include breakpoint($tabletWidth) {
+    max-width: 55%;
+  }
+}

@@ -1,0 +1,26 @@
+footer {
+  background: $darkGrey;
+  padding-bottom: 50px;
+}
+
+.footer__inner--wrapper {
+  @include maxWidth;
+  padding-top: 5%;
+
+  .partner_logos {
+    display: block;
+    margin-top: 100px;
+    opacity: .7;
+
+    @media all and (min-width: 700px) {
+      border-top: 1px solid $lightGrey;
+    }
+
+  }
+
+  .partner_logos--inner {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+}

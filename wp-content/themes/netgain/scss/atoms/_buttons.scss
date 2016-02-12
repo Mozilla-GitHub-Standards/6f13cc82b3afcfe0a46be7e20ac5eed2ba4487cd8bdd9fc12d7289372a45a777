@@ -1,0 +1,15 @@
+.grey.button {
+  background: $darkGrey;
+  padding: 10px 55px;
+  line-height: 2;
+  color: $white;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 25px;
+
+  &:hover {
+    background: $cta;
+  }
+  
+}
